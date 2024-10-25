@@ -36,7 +36,7 @@ async def test_project(dut):
     # Change it to match the actual expected output of your module:
     assert dut.uo_out.value == 4
 
- dut.ui_in.value = 0b00000000 
+    dut.ui_in.value = 0b00000000 
 
     # Wait for one clock cycle to see the output values
     await ClockCycles(dut.clk, 1)
@@ -45,7 +45,7 @@ async def test_project(dut):
     # Change it to match the actual expected output of your module:
     assert dut.uo_out.value == 0
 
- dut.ui_in.value = 0b00010000 
+    dut.ui_in.value = 0b00010000 
 
     # Wait for one clock cycle to see the output values
     await ClockCycles(dut.clk, 1)
@@ -54,7 +54,7 @@ async def test_project(dut):
     # Change it to match the actual expected output of your module:
     assert dut.uo_out.value == 1
 
- dut.ui_in.value = 0b10100011 
+    dut.ui_in.value = 0b10100011 
 
     # Wait for one clock cycle to see the output values
     await ClockCycles(dut.clk, 1)
@@ -63,7 +63,7 @@ async def test_project(dut):
     # Change it to match the actual expected output of your module:
     assert dut.uo_out.value == 30
 
- dut.ui_in.value = 0b11111111 
+    dut.ui_in.value = 0b11111111 
 
     # Wait for one clock cycle to see the output values
     await ClockCycles(dut.clk, 1)
@@ -72,7 +72,7 @@ async def test_project(dut):
     # Change it to match the actual expected output of your module:
     assert dut.uo_out.value == 225
 
- dut.ui_in.value = 0b10111111 
+    dut.ui_in.value = 0b10111111 
 
     # Wait for one clock cycle to see the output values
     await ClockCycles(dut.clk, 1)
