@@ -34,7 +34,7 @@ black_box inst2 (and02,and11,i1,o1,i2);
     and(and12,ui_in[2],ui_in[5]);
 black_box inst3 (and03,and12,i2,o2,i3);
     and(and13,ui_in[3],ui_in[5]);
-black_box inst4 (0,and13,i3,o3,o4);
+    black_box inst4 (1'b0,and13,i3,o3,o4);
 
 
     and(and20,ui_in[0],ui_in[6]);
