@@ -28,7 +28,7 @@ wire iii1,iii2,iii3,iii4;
     and(and03,ui_in[3],ui_in[4]);
 
     and(and10,ui_in[0],ui_in[5]);
-black_box inst1 (and01,and10,1'b0,p[1],i1);
+black_box inst1 (and01,and10,1'b0,uo_out[1],i1);
     and(and11,ui_in[1],ui_in[5]);
 black_box inst2 (and02,and11,i1,o1,i2);
     and(and12,ui_in[2],ui_in[5]);
@@ -38,7 +38,7 @@ black_box inst4 (0,and13,i3,o3,o4);
 
 
     and(and20,ui_in[0],ui_in[6]);
-black_box inst5 (o1,and20,1'b0,p[2],ii1);
+black_box inst5 (o1,and20,1'b0,uo_out[2],ii1);
     and(and21,ui_in[1],ui_in[6]);
 black_box inst6 (o2,and21,ii1,oo1,ii2);
     and(and22,ui_in[2],ui_in[6]);
