@@ -8,7 +8,7 @@ The project fully implements this structure by replicating the logic gates and t
 For example:
 ![Binary Multiplication Process](https://github.com/Maximum-Developer/tt09-sec-D-15-array-multiplier/blob/main/docs/BinaryMultiplicationExample.png)
 
-Credits to Wikipedia, and you can read more about this idea here: [Binary multiplier](https://en.wikipedia.org/wiki/Binary_multiplier)
+The Credit of this picture to Wikipedia, and you can read more about this idea here: [Binary multiplier](https://en.wikipedia.org/wiki/Binary_multiplier)
 
 This means that the multiplier support only unsigned binary numbers, so you should not expect to multiply signed decimal, 1's complemet, or 2's complement to work with this multiplier.
 Overall, this is a simple 4 by 4 multiplier.
