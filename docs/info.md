@@ -2,7 +2,7 @@
 
 ## How it works
 This is a class project designated to design a 4 by 4 arrary multiplier using logic gates and 1 bit full adders. Verilog codes were used in this projec t to implement this multiplier. The structural of the design is shown below.
-![Arrary Structual Multiplier Implementation of This Project](/docs/4%20by%204%20Multiplier.png)
+![Arrary Structual Multiplier Implementation of This Project](/docs/4by4Multiplier.png)
 
 The project fully implements this structure by replicating the logic gates and the connections to the repective components one by one. The adder module is included in the "project.v" file in the "src" folder. It is named as "black_box", because we used it for our first lab experiment and it was provided to us to see what it does and how it is implemented. The idea used in making this multiplier is partial product and adding together the products. This means that the product of each digits of the binary number is multiplied, shifted, and added with next line just like the way we did multiplication in decimal. Here is an example of binary product, and you can see how the idea of multipling (partial produuct), shifting, and adding is done.
 
