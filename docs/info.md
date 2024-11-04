@@ -1,6 +1,5 @@
-## 4 by 4 Arrary Structural Multiplier
-
 ## How it works
+4 by 4 Arrary Structural Multiplier
 This is a class project designated to design a 4 by 4 arrary multiplier using logic gates and 1 bit full adders. Verilog codes were used in this projec t to implement this multiplier. The structural of the design is shown below.
 ![Arrary Structual Multiplier Implementation of This Project](/docs/4by4Multiplier.png)
 
