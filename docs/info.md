@@ -7,15 +7,8 @@ This is a class project designated to design a 4 by 4 arrary multiplier using lo
 The project fully implements this structure by replicating the logic gates and the connections to the repective components one by one. The adder module is included in the "project.v" file in the "src" folder. It is named as "black_box", because we used it for our first lab experiment and it was provided to us to see what it does and how it is implemented. The idea used in making this multiplier is partial product and adding together the products. This means that the product of each digits of the binary number is multiplied, shifted, and added with next line just like the way we did multiplication in decimal. Here is an example of binary product, and you can see how the idea of multipling (partial produuct), shifting, and adding is done.
 
 For example:
-       1011   (this is binary for decimal 11)
-     × 1110   (this is binary for decimal 14)
-     ======
-       0000   (this is 1011 × 0)
-      1011    (this is 1011 × 1, shifted one position to the left)
-     1011     (this is 1011 × 1, shifted two positions to the left)
-  + 1011      (this is 1011 × 1, shifted three positions to the left)
-  =========
-   10011010   (this is binary for decimal 154)
+![Binary Multiplication Process](/docs/BinaryMultiplicationExample.png)
+
 Credits to Wikipedia, and you can read more about this idea here: [Binary multiplier](https://en.wikipedia.org/wiki/Binary_multiplier)
 
 This means that the multiplier support only unsigned binary numbers, so you should not expect to multiply signed decimal, 1's complemet, or 2's complement to work with this multiplier.
