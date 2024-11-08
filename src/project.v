@@ -9,7 +9,11 @@ module tt_um_array_mult_structural(
     input  wire       ena,      // always 1 when the design is powered, so you can ignore it
     input  wire       clk,      // clock
     input  wire       rst_n     // reset_n - low to reset
-    );  
+    );
+      assign uio_out = 0;
+      assign uio_oe  = 0;
+      wire _unused = &{ena, clk, rst_n, 1'b0};
+
     wire and01,and02,and03;
     wire and10,and11,and12,and13;
     wire and20,and21,and22,and23;
